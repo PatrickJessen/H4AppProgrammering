@@ -12,8 +12,7 @@
         android:id="@+id/loadImgBtn"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="682dp"
+        android:layout_alignParentTop="true"
         android:text="add image" />
 
     <Button
@@ -23,6 +22,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp"
         android:text="clear" />
+
+    <Button
+        android:id="@+id/postImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadImgBtn"
+        android:layout_marginTop="524dp"
+        android:text="post" />
 
 
 </RelativeLayout >
